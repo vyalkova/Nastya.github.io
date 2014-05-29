@@ -131,40 +131,40 @@ function init() {
     });
 
     iron_button.events.add(['select'], function (e) {
-        showGroup(gold);
+        showGroup(iron);
     });
     iron_button.events.add(['deselect'], function (e) {
-        hideGroup(gold);
+        hideGroup(iron);
     });
    marg_button.events.add(['select'], function (e) {
-        showGroup(goldp);
+        showGroup(marg);
     });
     marg_button.events.add(['deselect'], function (e) {
-        hideGroup(goldp);
+        hideGroup(marg);
     });
     chrom_button.events.add(['select'], function (e) {
-        showGroup(goldPM);
+        showGroup(chrom);
     });
     chrom_button.events.add(['deselect'], function (e) {
-        hideGroup(goldPM);
+        hideGroup(chrom);
     });
     alum_button.events.add(['select'], function (e) {
-        showGroup(goldCuprum);
+        showGroup(alum);
     });
     alum_button.events.add(['deselect'], function (e) {
-        hideGroup(goldCuprum);
+        hideGroup(alum);
     });
     surma_button.events.add(['select'], function (e) {
-        showGroup(goldSUrma);
+        showGroup(surma);
     });
     surma_button.events.add(['deselect'], function (e) {
-        hideGroup(goldSUrma);
+        hideGroup(surma);
     });
     stron_button.events.add(['select'], function (e) {
-        showGroup(goldRTyt);
+        showGroup(stron);
     });
     stron_button.events.add(['deselect'], function (e) {
-        hideGroup(goldRTyt);
+        hideGroup(stron);
     });
     
     myMap.controls.add(typeControls);
